@@ -8,7 +8,8 @@ class Solution {
             while (strs[i].indexOf(prefix) != 0) {
                 prefix = prefix.substring(0, prefix.length() - 1);
                 System.out.println("Prefix is now: " + prefix);
-                if (prefix.isEmpty()) return "";
+                if (prefix.isEmpty()) 
+                    return "";
             }       
         return prefix;
     }
